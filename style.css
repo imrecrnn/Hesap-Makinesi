@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    
+
+    font-size: 1.2rem;
+    
+   background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSExMVFhUXFRcXFxcYGBcVGhcXFRUXFxcVFRcYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDisZFRkrKystNzcrKysrNzcrNzcrKysrLS0rLS0rLSstKysrKy0tLSsrKysrKysrKysrKysrK//AABEIAQIAxAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EACYQAQEBAAEDBAICAwEAAAAAAAABEQISITFhcYHwQVGRwaGx4QP/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A9iMTFcmyUsWgJjNaqARUlXyAmhAL9/ClQFifB2LAJGrEJQNqouAQDAWJoQEVUoM/fwJaA1KYYAuFGbAXFvsk2AIns1gDNtWUwwDIFpAJFwlNAMVNAjSABaWmAWrYCiscmqlBi0awQVjlx3svUuAnGYtWxNAkAgCRQEpTP2ASKlh4AxYm1dApiwtBMS8WiAkmdlAEvoqgJsa5Rm1NA6VZ5T0Aa5enlLVTAWFTMJQTFhEoGiYoKuoncBbFnrEoJYSkhQXSBIC6VMXAM++DRJfv/QUlNS8wLUiyqCBoAU0oE5FMiAWk4rIUDElOlcAwnJOpbAD7+BLQFwhKCdP6XF1AVNRQXShoJVnExQLU1bEoJ/IfyAi5hagLonhQNIAJilpATDwaWaBGpGYoBoAXioYCdg1fIIpqAsW9kxdASmgFgnIAis3koCVSUEgvyoJKnUtiSAoUwDUWoCwwTYClTTiCrIQBKoQAhYsBKlrSAyqWfYA1ImC7+gSQWpaAlKSARTpMAuGph7AuJi4lAw2+EalAkaZpgKEKBIsSwBUvFNWUEgtpoM4LoCYufoS9gaTE9WgS9kWLKCAQAw1LADNJFgE4pqgAL1AGkS9gLCp5alBZDULQWJokBO4oCsxTANWCUCz0IsqAAmgaKAmFXEsAVJV7gHUYUDSGL8AlFhYBCEUEpRmgdXqJ0gNeFxItBDQvoAGpgF7ki6sgMrigGFQBFw0oIsLQFTfQxZQAMBF0QDFwhgIF4qCLEz1ICyiWGgmLIshQKi0gIffIQAtXEgENLSAuJazY1gKJi6CItqyAmNSIA0ytSgujPSAQsVJASNW+ieDyB1E5LhgJph1GganKHV6AEarOgLhpIAStRnSUFtiVPZQFpiSA0iRuUEKtZwGbQtAXF0i4DCr4LAQMAXGaqYCwMTpBUtMKCxcSeyUF1N3wYsAxcZljUgCAC1UpoLiUXAYVnkA6RmhAUhqaBQLQJCIoEGepQUSG/ewFpImNAEhDQXBIv+AQUADAFTFZsAz79gxb97gOjLWJZ+gFkTj6tAlhIvykApSGgmItSAqYRQEvZaQE1VxMAIsiWfoF5EOPuoEVDFFZq6lQc7fvYWwQdalBoOX9JiiDJyUAhy8/CgMXx8NQAM7HLwoDPHxPdeN/2AI1xAEX8gIzy/tYAq3y0gqKn/pOwCpIAyP/2Q==");
+}
+
+.calculator {
+    border: 1px solid rgb(124, 123, 121);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #07443a;
+}
+
+.calculator-input {
+    width: 100%;
+    font-size: 4rem;
+    height: 70px;
+    border: none;
+    background-color: #5d7196;
+    color: #fff;
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button {
+    height: 50px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #6e6c6c;
+    background-color: grey ;
+    font-size: 2.5rem;
+    color: rgb(2, 48, 32);
+}
+
+button:hover {
+    background-color: #1c3836;
+}
+
+.operator {
+    color: #005346;
+}
+
+.clear {
+    background-color: #630003;
+    border-color: #8a1115;
+    color: #fff;
+}
+
+.clear:hover {
+    background-color: #f17377;
+}
+
+.equal-sign {
+    background-color: #9c912e;
+    border-color: #015e49;
+    color: #fff;
+    height: 100%;
+    grid-area: 2/4/6/5;
+}
+
+.equal-sign:hover {
+    background-color: #3c4f5c;
+}
+
+.calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px
+}
+
