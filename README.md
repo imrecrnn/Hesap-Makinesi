@@ -1,4 +1,4 @@
-# Basit Hesap Makinesi Projesi
+# Hesap Makinesi Projesi
 
 Bu proje, JavaScript, CSS ve HTML kullanılarak basit bir hesap makinesi oluşturmayı amaçlamaktadır. Proje, kullanıcıların temel matematiksel işlemleri (toplama, çıkarma, çarpma, bölme) gerçekleştirebilecekleri bir arayüz sunmaktadır.
 
